@@ -25,7 +25,7 @@ namespace SignoZodiacal
             Piscis - Febrero 19 – Marzo 20 
             */
 
-            int dia, mes;
+            int dia, mes, año;
             string linea;
 
             Console.WriteLine("Ingresa (con 2 digitos) tu día de nacimiento");
@@ -34,6 +34,9 @@ namespace SignoZodiacal
             Console.WriteLine("Ingresa (con 2 digitos) tu mes de nacimiento");
             linea = Console.ReadLine();
             mes = int.Parse(linea);
+            Console.WriteLine("Ingresa (con 4 digitos) tu año de nacimiento");
+            linea = Console.ReadLine();
+            año = int.Parse(linea);
 
             if (mes == 03)
             {
